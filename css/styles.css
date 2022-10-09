@@ -62,7 +62,7 @@ img {
 
 
 .container {
-    width:1230px;
+    width:1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -74,7 +74,6 @@ img {
 
 .header-section{
     display: flex;
-    justify-content: center;
 }
 .menu {
     display: flex;
@@ -86,7 +85,6 @@ img {
 
 .contacts {
     display: flex;
-    justify-content: flex-end;
     margin-left: 344px
 }
 .studio-header{
@@ -156,6 +154,7 @@ img {
 
 .main-poster{
     background-color: var(--background-color);
+    padding: 200px 0;
 }
 
 .main-poster-header {
@@ -170,12 +169,12 @@ font-weight: 900;
     margin-left: auto;
     margin-right: auto;
     width: 696px;
-    flex-wrap: wrap;
+   
 }
 
 .main-poster-btn{
     background-color: var(--brand-color);
-    border-color: var(--brand-color);
+    border: none;   
     font-weight: 700;
     font-family: inherit;
     font-size: 16px;
@@ -251,7 +250,7 @@ font-weight: 900;
 .occupation-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.67;
+    line-height: 1.16;
     text-align: center;
     color: var(--title-color);
     margin-bottom: 50px;
@@ -283,16 +282,17 @@ font-weight: 900;
     background: var(--white);        
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    padding-bottom: 30px;
 
 }
 
 .team-member:not(:last-child) {
     margin-right: 30px;
 }
-.team-member-img{
-    margin-bottom: 30px;
+
+.team-member-box{
+    padding: 30px 0;
 }
+
 .team-member-name{
     font-weight: 500;
     font-size: 16px;
@@ -314,7 +314,7 @@ font-weight: 900;
     padding-bottom: 60px;
 }
 
-.studio{
+.logo-footer{
     color: var(--white);
     font-family: 'Raleway';
     font-weight: 700;
@@ -322,9 +322,11 @@ font-weight: 900;
     line-height: 1.19;
 }
 
-.address-item{
+.address-item:not(:last-child){
     margin-bottom: 9px;
 }
+
+
 .address-menu{
     margin-top: 20px;
 }
@@ -370,7 +372,7 @@ margin-left: 8px;
  
 .filter-btn{
     background: var(--team-background);
-    border-color: transparent;
+    border: none;
     border-radius: 4px;
     font-weight: 500;
     font-family: inherit;
@@ -407,9 +409,9 @@ margin-left: 8px;
     margin-bottom: 0;
 }
 .project-descr{
-    padding-left: 24px;
-    padding-top: 20px;
+    padding: 20px 24px;
     border: 1px solid var(--grey);
+    border-top: none;
 }
 
 .project-item-title{
